@@ -1,0 +1,9 @@
+digraph {
+	X [label="X
+~
+Uniform" shape=ellipse]
+	l [label="l
+~
+Deterministic" shape=box]
+	X -> l
+}
