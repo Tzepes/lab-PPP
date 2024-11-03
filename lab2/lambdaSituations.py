@@ -3,7 +3,7 @@ import numpy as np
 import pytensor.tensor as at
 from matplotlib import pyplot as plt
 
-# count_data = np.loadtxt("lab2/txtdata.csv")
+count_data = np.loadtxt("lab2/txtdata.csv")
 n_count_data = len(count_data)
 
 with pm.Model() as model:
